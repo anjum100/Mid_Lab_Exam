@@ -25,8 +25,11 @@ USER LIST :: ABC.com
             <td>USERNAME</td>
             <td>PASSWORD</td>
             <td>TYPE</td>
+            <td>Country</td>
+            <td>City</td>
+            <td>Department</td>
             <td>Action</td>
-             <td>Profile</td>
+             
         </tr>
 
         @for($i=0; $i < count($list); $i++)
@@ -35,6 +38,10 @@ USER LIST :: ABC.com
             <td>{{ $list[$i]['username'] }}</td>
             <td>{{ $list[$i]['password'] }}</td>
             <td>{{ $list[$i]['type'] }}</td>
+            <td>{{ $list[$i]['country'] }}</td>
+            <td>{{ $list[$i]['city'] }}</td>
+            <td>{{ $list[$i]['dept'] }}</td>
+            
             <td>
                 <a href="{{ route('home.edit', [$list[$i]['userId']]) }}">Edit</a>
 

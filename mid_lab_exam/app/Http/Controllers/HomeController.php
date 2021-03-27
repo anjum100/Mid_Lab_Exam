@@ -89,7 +89,10 @@ class HomeController extends Controller
             $user->name         = $req->name;
             $user->dept         = $req->dept;
             $user->type         = $req->type;
-            $user->cgpa         = $req->cgpa;
+            $user->country         = $req->country;
+            $user->city         = $req->city;
+
+           // $user->cgpa         = $req->cgpa;
             $user->profile_img = $filename;
             $user->save();
             return redirect()->route('home.userlist');
