@@ -26,41 +26,43 @@
 			<table>
 				<tr>
 					<td>Username</td>
-					<td><input type="text" name="username" value="{{old('username')}}"></td>
+					<td>:</td>
+					<td> mishu </td>
 				</tr>
 				<tr>
 					<td>Password</td>
-					<td><input type="password" name="password" value="{{old('password')}}"></td>
+					
+					<td>:</td>
+					<td> 123456</td>
 				</tr>
 				<tr>
 					<td>Name</td>
-					<td><input type="text" name="name" value="{{old('name')}}"></td>
+					<td>:</td>
+					<td> Mishu </td>
 				</tr>
 				<tr>
 					<td>Country</td>
-					<td><input type="text" name="country" value="{{old('country')}}"></td>
+					<td>:</td>
+					<td> Bangladesh </td>
 				</tr>
 
 				<tr>
 					<td>City</td>
-					<td><input type="text" name="city" value="{{old('city')}}"></td>
+					<td>:</td>
+					<td> Dhaka</td>
 				</tr>
 
 				<tr>
 					<td>dept</td>
 					
-					<td><input type="text" name="dept" value="{{old('dept')}}"></td>
-				</tr>
+					<td>:</td>
+					<td> Manager </td>
 				
 
                 <tr>
 					<td>Type</td>
-					<td>
-						<select name='type'>
-							<option value="admin"> ADMIN </option>
-							<option value="user"> USER </option>
-						</select>
-					</td>
+					<td>:</td>
+					<td> User </td>
 				</tr>
 				<tr>
 					<td>Image</td>
@@ -71,7 +73,7 @@
 				<tr>
 					<td></td>
 					<td><input type="submit" name="submit" value="Save"></td>
-					
+
 				</tr>
 			</table>
 		</fieldset>
