@@ -12,4 +12,4 @@ Home | ABC.com
 @endsection
 <a href="/admin">Admin</a>
 <a href="/home">Home</a>
-<a href="/specialist">Specialist</a>
+<a href="/scout">Scout</a>

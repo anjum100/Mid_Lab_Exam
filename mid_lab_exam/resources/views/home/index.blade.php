@@ -10,6 +10,6 @@
 @section('title')
 Home | ABC.com
 @endsection
-<a href="/customer">Customer</a>
+<a href="/general">General USER</a>
 <a href="/admin">Admin</a>
-<a href="/specialist">Specialist</a>
+<a href="/scout">Scout</a>

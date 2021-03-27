@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Customer;
+use App\Scout;
 use Illuminate\Http\Request;
 
-class CustomerController extends Controller
+class ScoutController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        return view('customer.index');
+        return view('scout.index');
     }
 
     /**
@@ -44,7 +44,7 @@ class CustomerController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function show(Customer $customer)
+    public function show(Scout $scout )
     {
         //
     }
@@ -55,7 +55,7 @@ class CustomerController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function edit(Customer $customer)
+    public function edit(Scout $scout )
     {
         //
     }
@@ -67,7 +67,7 @@ class CustomerController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Customer $customer)
+    public function update(Request $request,Scout $scout )
     {
         //
     }
@@ -78,7 +78,7 @@ class CustomerController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Customer $customer)
+    public function destroy(Scout $scout)
     {
         //
     }

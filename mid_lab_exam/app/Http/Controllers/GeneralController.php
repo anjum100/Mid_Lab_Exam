@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Specialist;
+use App\Customer;
 use Illuminate\Http\Request;
 
-class SpecialistController extends Controller
+class GeneralController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class SpecialistController extends Controller
      */
     public function index()
     {
-        return view('specialist.index');
+        return view('general.index');
     }
 
     /**
@@ -44,7 +44,7 @@ class SpecialistController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function show(Specialist $specialist )
+    public function show(General $general)
     {
         //
     }
@@ -55,7 +55,7 @@ class SpecialistController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function edit(Specialist $specialist )
+    public function edit(General $general)
     {
         //
     }
@@ -67,7 +67,7 @@ class SpecialistController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request,Specialist $specialist )
+    public function update(Request $request, General $general)
     {
         //
     }
@@ -78,7 +78,7 @@ class SpecialistController extends Controller
      * @param  \App\Models\Customer  $customer
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Specialist $specialist )
+    public function destroy(General $general)
     {
         //
     }
