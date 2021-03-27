@@ -8,7 +8,7 @@ class ProfileController extends Controller
 {
     public function index( Request $req){
 
-        $name = "alamin";
+        $name = "mishu";
         $id = "123";
 
         //return view('home.index', ['name'=> 'xyz', 'id'=>12]);

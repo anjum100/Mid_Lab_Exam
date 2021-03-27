@@ -2,7 +2,7 @@
 
 
 @section('title')
-USER LIST :: ABC.com
+USER LIST :: Travel guide.com
 @endsection
 
 
@@ -29,6 +29,7 @@ USER LIST :: ABC.com
             <td>City</td>
             <td>Department</td>
             <td>Action</td>
+           
              
         </tr>
 
@@ -41,6 +42,7 @@ USER LIST :: ABC.com
             <td>{{ $list[$i]['country'] }}</td>
             <td>{{ $list[$i]['city'] }}</td>
             <td>{{ $list[$i]['dept'] }}</td>
+         
             
             <td>
                 <a href="{{ route('home.edit', [$list[$i]['userId']]) }}">Edit</a>

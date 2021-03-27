@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Create User</title>
+    <title>Create Users</title>
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
 </head>
 <body>
-    <h1>Create New user</h1>
+    <h1>Create New users</h1>
 
     <form method="post" enctype="multipart/form-data">
     	@csrf
 		<fieldset>
 			<legend>Add</legend>
 			<table>
-
-
-			
-			
 				<tr>
 					<td>Username</td>
 					<td><input type="text" name="username" value="{{old('username')}}"></td>
@@ -32,13 +28,21 @@
 					<td><input type="text" name="name" value="{{old('name')}}"></td>
 				</tr>
 				<tr>
+					<td>Country</td>
+					<td><input type="text" name="country" value="{{old('country')}}"></td>
+				</tr>
+
+				<tr>
+					<td>City</td>
+					<td><input type="text" name="city" value="{{old('city')}}"></td>
+				</tr>
+
+				<tr>
 					<td>dept</td>
+					
 					<td><input type="text" name="dept" value="{{old('dept')}}"></td>
 				</tr>
-				<tr>
-					<td>CGPA</td>
-					<td><input type="text" name="cgpa" value="{{old('cgpa')}}"></td>
-				</tr>
+				
 
                 <tr>
 					<td>Type</td>
@@ -58,7 +62,6 @@
 				<tr>
 					<td></td>
 					<td><input type="submit" name="submit" value="Save"></td>
-					
 				</tr>
 			</table>
 		</fieldset>

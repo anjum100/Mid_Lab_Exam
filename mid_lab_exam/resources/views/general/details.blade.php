@@ -29,8 +29,13 @@
 					<td>{{ $user['password']}}</td>
 				</tr>
                 <tr>
-					<td>CGPA</td>
-					<td>{{ $user['cgpa'] }}</td>
+					<td>Country</td>
+					<td>{{ $user['country'] }}</td>
+				</tr>
+
+				 <tr>
+					<td>City</td>
+					<td>{{ $user['city'] }}</td>
 				</tr>
 				<tr>
 					<td>Dept</td>

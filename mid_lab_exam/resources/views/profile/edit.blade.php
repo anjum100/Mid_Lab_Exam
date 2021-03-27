@@ -39,13 +39,14 @@
 							<option value="user"  @if($user['type'] == 'user') selected @endif > USER </option>
 						</select>
 					</td>
-
+				</tr>
+				<tr>
 					<td>Image</td>
 					<td>
-						<input type="file" name="myfile">
+						<input type="file" name="Image" value="{{ $user['profile_img'] }}">
 					</td>
-
 				</tr>
+				<tr>
 				<tr>
 					<td></td>
 					<td><input type="submit" name="submit" value="update"></td>
