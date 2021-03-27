@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<h2 align="center">Client Management System</h2>
+<h2 align="center">Travel Guide Website</h2>
 
 
     <h3 align="center">Create New Account</h3>
@@ -65,11 +65,10 @@
 					
             <select name='type'>
                         <option> </option>
-                        <option value="admin">Admin</option>
-                        <option value="customer">Customer</option>
-                        <option value="accountant">Accountant</option>
-                        <option value="Sales and Marketing Person">Sales and Marketing Person</option>
-                        <option value="Business Partner">Business Partner</option>
+                        <option value="admin">ADMIN</option>
+                        <option value="customer">SCOUT</option>
+                        <option value="accountant">General USER</option>
+                        
                     </select>
                     
 					</td>
